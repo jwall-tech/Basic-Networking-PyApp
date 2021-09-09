@@ -85,5 +85,5 @@ class Server():
         myCon = Connection(self,addr,conn)
         self.connections[str(addr)] = myCon
 
-myServ = Server("192.168.0.17",5000,100)
+myServ = Server("IP","PORT","MAXUSERS")
             
