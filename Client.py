@@ -38,4 +38,4 @@ class Client():
         def handleRequest(self,data):
                 print(data)
 
-myClient = Client("192.168.0.17",5000)    
+myClient = Client("IP","PORT")    
